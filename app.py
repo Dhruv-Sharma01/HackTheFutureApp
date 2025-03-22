@@ -5,7 +5,7 @@ import lightgbm as lgb
 
 # ---------------------------------------------------
 # Load the LightGBM model using its native Booster interface.
-model = lgb.Booster(model_file='Env/model.pkl')
+model = lgb.Booster(model_file='model.pkl')
 
 st.title("Household Total Expense Prediction")
 st.markdown("Enter your household details and person-specific details below:")
